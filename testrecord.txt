@@ -1,0 +1,557 @@
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:34)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:174)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:44)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:174)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:59)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:174)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:70)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:174)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:34)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:175)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:44)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:175)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:59)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:175)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '23' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:70)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:175)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:34)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:176)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:44)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:176)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:59)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:176)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '34' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.DeveloperImpl.createDeveloper(DeveloperImpl.java:70)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:176)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '45' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:182)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '45' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:41)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:182)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '45' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:56)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:182)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '45' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:67)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:182)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '56' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:183)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '56' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:41)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:183)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '56' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:56)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:183)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '56' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.UserImpl.createUser(UserImpl.java:67)
+	at edu.northeastern.cs5200.Create.createPersonExample(Create.java:183)
+	at edu.northeastern.cs5200.Create.main(Create.java:93)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:194)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '234' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:195)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '345' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:196)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '456' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:197)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '567' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:198)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '678' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WebsiteImpl.createWebsiteForDeveloper(WebsiteImpl.java:31)
+	at edu.northeastern.cs5200.Create.createWebsite(Create.java:199)
+	at edu.northeastern.cs5200.Create.main(Create.java:108)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.PageImpl.createPageForWebsite(PageImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPage(Create.java:210)
+	at edu.northeastern.cs5200.Create.main(Create.java:109)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '234' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.PageImpl.createPageForWebsite(PageImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPage(Create.java:211)
+	at edu.northeastern.cs5200.Create.main(Create.java:109)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '345' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.PageImpl.createPageForWebsite(PageImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPage(Create.java:212)
+	at edu.northeastern.cs5200.Create.main(Create.java:109)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '456' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.PageImpl.createPageForWebsite(PageImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPage(Create.java:213)
+	at edu.northeastern.cs5200.Create.main(Create.java:109)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '567' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.PageImpl.createPageForWebsite(PageImpl.java:31)
+	at edu.northeastern.cs5200.Create.createPage(Create.java:214)
+	at edu.northeastern.cs5200.Create.main(Create.java:109)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:225)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:226)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:227)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:228)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:229)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at edu.northeastern.cs5200.dao.WidgetImpl.createWidgetForPage(WidgetImpl.java:36)
+	at edu.northeastern.cs5200.Create.createWidget(Create.java:230)
+	at edu.northeastern.cs5200.Create.main(Create.java:120)
+	at edu.northeastern.cs5200.cs5200_fall2019_sun_ke_jdbc.main(cs5200_fall2019_sun_ke_jdbc.java:11)
+12 123 0
+12 123 owner
+23 123 reviewer
+34 123 writer
+23 234 owner
+34 234 reviewer
+12 234 writer
+34 345 owner
+12 345 reviewer
+23 345 writer
+12 456 owner
+23 456 reviewer
+34 456 writer
+23 567 owner
+34 567 reviewer
+12 567 writer
+12 Alice Wonder 1969-12-31 888-888-8888 nullnull null
+23 Bob Marley 1969-12-31 888-888-8888 123Boston MA
+34 Charles Garcia 1969-12-31 333-444-5555 123Boston MA
+
+By Id
+23 Bob Marley 1969-12-31 888-888-8888 123Boston MA
+
+By Username
+23 Bob Marley 1969-12-31 888-888-8888 123Boston MA
+
+By Credentials
+34 Charles Garcia 1969-12-31 333-444-5555 123Boston MA
+all website
+
+Website [id=123, name=Facebook, description=an online social media and social networking service, created=2020-02-27, updated=2020-02-26, visits=1234234]
+Website [id=234, name=Twitter, description=an online news and social networking service, created=2020-02-27, updated=2020-02-26, visits=4321543]
+Website [id=345, name=Wikipedia, description=a free online encyclopedia, created=2020-02-27, updated=2020-02-26, visits=3456654]
+Website [id=456, name=CNN, description=an American basic cable and satellite television news channel...., created=2020-02-27, updated=2020-02-26, visits=6543345]
+Website [id=678, name=Gizmodo, description=a design, technology, science and science fiction website that also writes articles on politics, created=2020-02-27, updated=2020-02-26, visits=4322345]
+website By dev
+
+Website [id=345, name=Wikipedia, description=a free online encyclopedia, created=2020-02-27, updated=2020-02-26, visits=3456654]
+Website [id=456, name=CNN, description=an American basic cable and satellite television news channel...., created=2020-02-27, updated=2020-02-26, visits=6543345]
+website By id
+
+Website [id=123, name=Facebook, description=an online social media and social networking service, created=2020-02-27, updated=2020-02-26, visits=1234234]
+all website
+
+Page [id=234, title=About, description=Website description, created=2020-02-27, updated=2020-02-26, views=234545]
+Page [id=345, title=Contact, description=Addresses, phones, and contact info, created=2020-02-27, updated=2020-02-26, views=345656]
+Page [id=456, title=Preferences, description=Where users can configure their preferences, created=2020-02-27, updated=2020-02-26, views=456776]
+Page By web
+
+Page By id
+
+Page [id=456, title=Preferences, description=Where users can configure their preferences, created=2020-02-27, updated=2020-02-26, views=456776]
+all widge
+
+Widget [Id=2, name=post234, width=0, heght=0, cssClass=null, cssStyle=null, text=<p>Lorem</p>, orders=0, type=Html, url=, shareble=false, expandable=false]
+Widget [Id=3, name=head345, width=0, heght=0, cssClass=null, cssStyle=null, text=Hi, orders=3, type=Heading, url=, shareble=false, expandable=false]
+Widget [Id=4, name=intro456, width=0, heght=0, cssClass=null, cssStyle=null, text=<h1>Hi</h1>, orders=2, type=Html, url=, shareble=false, expandable=false]
+Widget [Id=5, name=image345, width=50, heght=100, cssClass=null, cssStyle=null, text=, orders=1, type=Image, url=/img/567.png, shareble=false, expandable=false]
+By page
+
+Widget [Id=3, name=head345, width=0, heght=0, cssClass=null, cssStyle=null, text=Hi, orders=3, type=Heading, url=, shareble=false, expandable=false]
+Widget [Id=4, name=intro456, width=0, heght=0, cssClass=null, cssStyle=null, text=<h1>Hi</h1>, orders=2, type=Html, url=, shareble=false, expandable=false]
+Widget [Id=5, name=image345, width=50, heght=100, cssClass=null, cssStyle=null, text=, orders=1, type=Image, url=/img/567.png, shareble=false, expandable=false]
+By id
+
+Widget [Id=2, name=post234, width=0, heght=0, cssClass=null, cssStyle=null, text=<p>Lorem</p>, orders=0, type=Html, url=, shareble=false, expandable=false]
+34 Charles Garcia 1969-12-31 333-444-5555 123Boston MA
+change head345 and image345 order 
+
+add . at end of description of cnn
+
+Website [id=456, name=CNN, description=an American basic cable and satellite television news channel...., created=2020-02-27, updated=2020-02-26, visits=6543345]
+34 123 reviewer
+23 123 writer
+12 Alice Wonder 1969-12-31 888-888-8888 nullnull null
