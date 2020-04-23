@@ -11,7 +11,8 @@ import java.util.Set;
 
 public class MySQLConnection {
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://cs5200-spring2020-sun.clwiyeialsqa.us-east-2.rds.amazonaws.com:3306/cs5200_fall2019_sun_ke_jdbc";
+    //private static final String URL = "jdbc:mysql://cs5200-spring2020-sun.clwiyeialsqa.us-east-2.rds.amazonaws.com:3306/cs5200_fall2019_sun_ke_jdbc";
+	private static final String URL = "jdbc:mysql://cs5200-spring2020-sun.clwiyeialsqa.us-east-2.rds.amazonaws.com:3306/test_sam";
     private static final String USER = "cs5200";
     private static final String PASSWORD = "123456789";
     private static java.sql.Connection dbConnection = null;

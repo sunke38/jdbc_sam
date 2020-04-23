@@ -14,7 +14,7 @@ public class PriviledgeImpl implements PriviledgeDao {
 	@Override
 	public void assignWebsitePrivilege(int developerId, int websiteId, String priviledge) {
 		// TODO Auto-generated method stub
-		 String sql = "INSERT INTO cs5200_fall2019_sun_ke_jdbc.website_privilege (Id_developer,Id_website,privilege) VALUES (?,?,?);";
+		 String sql = "INSERT INTO website_privilege (Id_developer,Id_website,privilege) VALUES (?,?,?);";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);
@@ -29,7 +29,7 @@ public class PriviledgeImpl implements PriviledgeDao {
 	@Override
 	public void assignPagePriviledge(int developerId, int pageId, String priviledge) {
 		// TODO Auto-generated method stub
-		 String sql = "INSERT INTO cs5200_fall2019_sun_ke_jdbc.page_privilege (Id_developer,Id_page,privilege) VALUES (?,?,?);";
+		 String sql = "INSERT INTO page_privilege (Id_developer,Id_page,privilege) VALUES (?,?,?);";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);
@@ -45,7 +45,7 @@ public class PriviledgeImpl implements PriviledgeDao {
 	@Override
 	public void deleteWebsitePriviledge(int developerId, int websiteId, String priviledge) {
 		// TODO Auto-generated method stub
-		 String sql = "DELETE FROM cs5200_fall2019_sun_ke_jdbc.website_privilege WHERE Id_developer=? and Id_website=? and priviledge=?";
+		 String sql = "DELETE FROM website_privilege WHERE Id_developer=? and Id_website=? and priviledge=?";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);
@@ -62,7 +62,7 @@ public class PriviledgeImpl implements PriviledgeDao {
 	@Override
 	public void deletePagePriviledge(int developerId, int pageId, String priviledge) {
 		// TODO Auto-generated method stub
-		 String sql = "DELETE FROM cs5200_fall2019_sun_ke_jdbc.page_privilege WHERE Id_developer=? and Id_page=? and priviledge=?";
+		 String sql = "DELETE FROM page_privilege WHERE Id_developer=? and Id_page=? and priviledge=?";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);

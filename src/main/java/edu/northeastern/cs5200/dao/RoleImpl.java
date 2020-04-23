@@ -14,7 +14,7 @@ public class RoleImpl implements RoleDao {
 	@Override
 	public void assignWebsiteRole(int developerId, int websiteId, int roleId) {
 		// TODO Auto-generated method stub
-		 String sql = "INSERT INTO cs5200_fall2019_sun_ke_jdbc.website_role (Id_developer,Id_website,role) VALUES (?,?,?);";
+		 String sql = "INSERT INTO website_role (Id_developer,Id_website,role) VALUES (?,?,?);";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);
@@ -30,12 +30,13 @@ public class RoleImpl implements RoleDao {
 	@Override
 	public void assignPageRole(int developerId, int pageId, int roleId) {
 		// TODO Auto-generated method stub
-		 String sql = "INSERT INTO cs5200_fall2019_sun_ke_jdbc.page_role (Id_developer,Id_page,role) VALUES (?,?,?);";
+		 String sql = "INSERT INTO page_role (Id_developer,Id_page,role) VALUES (?,?,?);";
 	        try {
 	            PreparedStatement statement = conn.prepareStatement(sql);
 	            statement.setInt(1, developerId);
 	            statement.setInt(2, pageId);
 	            statement.setString(3, Role.roleIdtoString(roleId));
+	            System.out.println(developerId+" "+pageId+" "+Role.roleIdtoString(roleId));
 	            statement.executeUpdate();
 	        } catch (SQLException e) {
 	            e.printStackTrace();
@@ -45,7 +46,7 @@ public class RoleImpl implements RoleDao {
 	@Override
 	public void deleteWebsiteRole(int developerId, int websiteId, int roleId) {
 		// TODO Auto-generated method stub
-		String sql = "DELETE FROM cs5200_fall2019_sun_ke_jdbc.website_role WHERE Id_developer=? and Id_website=? and role=?";
+		String sql = "DELETE FROM website_role WHERE Id_developer=? and Id_website=? and role=?";
 		try {
             PreparedStatement statement = conn.prepareStatement(sql);
             statement.setInt(1, developerId);
@@ -60,7 +61,7 @@ public class RoleImpl implements RoleDao {
 	@Override
 	public void deletePageRole(int developerId, int pageId, int roleId) {
 		// TODO Auto-generated method stub
-		String sql = "DELETE FROM cs5200_fall2019_sun_ke_jdbc.page_role WHERE Id_developer=? and Id_page=? and role=?";
+		String sql = "DELETE FROM page_role WHERE Id_developer=? and Id_page=? and role=?";
 		try {
             PreparedStatement statement = conn.prepareStatement(sql);
             statement.setInt(1, developerId);

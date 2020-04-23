@@ -232,7 +232,7 @@ public class Create {
 	}
 	private static void createRP(Connection db) throws SQLException, ClassNotFoundException{
 		RoleImpl r = new RoleImpl(db);
-		
+		System.out.println(HomeEditor.getDeveloperId()+" "+HomeEditor.getTargetId()+" "+Role.roleStringtoId(HomeEditor.getRole()));
 		r.assignPageRole(HomeEditor.getDeveloperId(), HomeEditor.getTargetId(),Role.roleStringtoId(HomeEditor.getRole()));
 		r.assignPageRole(HomeReviewer.getDeveloperId(), HomeReviewer.getTargetId(),Role.roleStringtoId(HomeReviewer.getRole()));
 		r.assignPageRole(HomeWriter.getDeveloperId(), HomeWriter.getTargetId(),Role.roleStringtoId(HomeWriter.getRole()));
